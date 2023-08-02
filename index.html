@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Welcome To Sample</title>
+<link rel="shortcut icon" type="image/x-icon" href="{main_base}favicon.ico">
+<link href="assets/css/common.css" rel="stylesheet" type="text/css">
+<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="assets/css/flexslider.css"  media="screen">
+<!--[if lt IE 9]>
+		<script src="assets/js/html5.js"></script>
+        <script src="assets/js/css3-mediaqueries.js"></script>
+		<![endif]-->
+<script type="text/javascript" src="assets/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+<!--Page Wrapper-->
+<div id="Wrapper">
+  <!--Header Section-->
+  <header id="Header">
+    <div class="main">
+      <div class="PrimarySection"> <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="image" title="Welcome TO EMPOWERMENT CENTER" /></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Social</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+        <ul class="social">
+          <li><a href="#" class="facebook" title="Follow us on Facebook">Facebook</a></li>
+          <li><a href="#" class="twitter" title="Follow us on Twitter">Linkdin</a></li>
+          <li><a href="#" class="youtube" title="Follow us on Youtube">Twitter</a></li>
+        </ul>
+        <div class="search">
+          <input type="text">
+          <input type="submit" value=".">
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Header Section-->
+  <!--Content Area-->
+  <div id="Content">
+    <div class="Banner">
+      <div class="main">
+        <div class="flexslider">
+          <ul class="slides">
+            <li><img src="assets/images/banner.jpg" alt="image" title="banner"></li>
+            <li><img src="assets/images/banner.jpg" alt="image" title="banner"></li>
+            <li><img src="assets/images/banner.jpg" alt="image" title="banner"></li>
+            <li><img src="assets/images/banner.jpg" alt="image" title="banner"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="content-text">
+      <div class="main">
+        <ul>
+          <li> <span>View our latest</span>
+            <h2>events</h2>
+          </li>
+          <li> <span>Follow us on</span>
+            <h2>facebook</h2>
+          </li>
+          <li class="no-margin"> <span>Watch us Live on</span>
+            <h2>ustream</h2>
+          </li>
+        </ul>
+        <div class="map-cover">
+          <article>
+            <h3>About the Empowerment Center</h3>
+            <p>The Empowerment Center is a Pentecostal church, located in downtown area of Albany, NY, founded in 2008. Since 2008, </p>
+            <p>The Empowerment Center has been working towards 
+              establishing its self as a religious entity that will be at the forefront of the eradication of social ills and poverty. Having gone from a membership of 4, the Empowerment Center is one of the fastest growing churches with under 30 memberships.</p>
+          </article>
+          <iframe src="http://maps.google.co.in/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=+&amp;q=mansion+area&amp;ie=UTF8&amp;hq=mansion&amp;hnear=New+Delhi,+Delhi&amp;ll=28.611578,77.247654&amp;spn=0.210412,0.271542&amp;t=m&amp;output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Content Area-->
+<!--Footer Area-->
+<footer id="Footer">
+  <div class="main">
+    <div class="latest">
+      <h4>Latest Tweets</h4>
+      <address>
+      <span>“12 Noon Daily Prayer Request<br/>
+      Line. Call 877 ART 5301<br/>
+      #Retweet #Prayer #Noon</span>
+      </address>
+    </div>
+    <div class="latest mid">
+      <h4>Albany</h4>
+      <address>
+      <span>15 Trinity Place<br/>
+      Albany NY 12202<br/>
+      (518) ### - ####</span>
+      </address>
+    </div>
+    <div class="latest city">
+      <h4>New Yor City</h4>
+      <address>
+      <span>1523 Main Street<br/>
+      New York NY 10111<br/>
+      (718) ### - ####</span>
+      </address>
+    </div>
+    <div class="latest last">
+      <h4></h4>
+      <span>####</span> </div>
+  </div>
+</footer>
+</div>
+<!--Page Wrapper-->
+</body>
+</html>

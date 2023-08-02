@@ -1,0 +1,68 @@
+/*@charset "utf-8";*/
+/*==================================================
+ Styling For Content Area
+ =================================================*/
+body {
+	background:url(../images/psd.png) center top no-repeat;
+}
+#Content {
+	overflow:hidden;
+}
+#Content .main {
+	background:url(../images/content-bg-rep.jpg) left center repeat-y;
+}
+.Banner {
+	overflow:hidden;
+	background:url(../images/banner-bg.jpg) repeat;
+	padding:35px 0 40px 0;
+}
+.content-text {
+	background:url(../images/content-bot-rep.jpg) repeat-x;
+	padding-top:40px;
+}
+.content-text ul {
+	overflow:hidden
+}
+.content-text ul li {
+	text-align:center;
+	float:left;
+	border:10px solid #f5f3ef;
+	margin-right:25px;
+	width:280px;
+	background:#241d08;
+	min-height:272px;
+}
+.content-text li span {
+	display:block;
+	padding-top:80px;
+	color:#829d36;
+	font-size:2.8em;
+	line-height:1;
+	font-family: 'roelregular';
+}
+.content-text li h2 {
+	font-size:9em;
+	color:#fff;
+	font-family: 'practiquecondensed_semibold';
+	text-transform:uppercase;
+	line-height:68%
+}
+.content-text li.no-margin {
+	margin-right:0px;
+}
+.map-cover {
+	overflow:hidden;
+	margin-top:47px;
+	padding-bottom:60px;
+}
+.map-cover article {
+	float:left;
+	width:498px;
+	padding:0 10px;
+}
+.map-cover iframe {
+	float:right;
+	margin-right:5px;
+	width:402px;
+	height:265px
+}
